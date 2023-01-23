@@ -1,10 +1,10 @@
 event.preventDefault();
 function dogType() {
-  let food = $("input[name='food']:checked").val();
-  let activity = $("input[name='activity']:checked").val();
-  let music = $("input[name='music']:checked").val();
-  let color = $("input[name='color']:checked").val();
-  let personality = $("input[name='personality']:checked").val();
+  let food = document.querySelector("input[name='food']:checked").value;
+  let activity = document.querySelector("input[name='activity']:checked").value;
+  let music = document.querySelector("input[name='music']:checked").value;
+  let color = document.querySelector("input[name='color']:checked").value;
+  let personality = document.querySelector("input[name='personality']:checked").value;
 
   let dogType;
   if (food === "meat" && activity === "running" && music === "rock" && color === "red" && personality === "friendly") {
@@ -17,7 +17,7 @@ function dogType() {
       dogType = "Other";
   }
 
-  $("#result").html("You are a " + dogType + "!");
+  document.getElementById("result").innerHTML = "You are a " + dogType + "!";
 }
 
 document.getElementById("tryAgain").addEventListener("click", function(){
