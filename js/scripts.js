@@ -1,13 +1,11 @@
 event.preventDefault();
 function dogType() {
-  // Get the values of the selected radio buttons
   let food = $("input[name='food']:checked").val();
   let activity = $("input[name='activity']:checked").val();
   let music = $("input[name='music']:checked").val();
   let color = $("input[name='color']:checked").val();
   let personality = $("input[name='personality']:checked").val();
 
-  // Use the values to determine the user's dog type
   let dogType;
   if (food === "meat" && activity === "running" && music === "rock" && color === "red" && personality === "friendly") {
       dogType = "Golden Retriever";
@@ -19,6 +17,12 @@ function dogType() {
       dogType = "Other";
   }
 
-  // Display the result
   $("#result").html("You are a " + dogType + "!");
 }
+
+document.getElementById("tryAgain").addEventListener("click", function(){
+  let form = document.querySelector("form");
+  form.reset();
+
+  document.getElementById("result").innerHTML = "";
+});
