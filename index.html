@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>What Type of Dog Are You?</title>
+  <script src="js/scripts.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link href="css/bootstrap.css" rel ="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>What Type of Dog Are You?</h1>
+          <p>Take this quiz to find out!</p>
+          <form>
+            <div class="form-group">
+              <div class="food">
+                <label for="food">What is your favorite food?</label>
+                <div>
+                  <input type="radio" name="food" value="meat"> Steaks, Chicken, Burgers etc
+                </div>
+                <div>
+                  <input type="radio" name="food" value="vegetables"> Fresh Veggies!
+                </div>
+                <div>
+                  <input type="radio" name="food" value="fruit"> Sweet Fruit
+                </div>
+              </div>
+              <div class="activity">
+                <label for="activity">What is your favorite activity?</label>
+                <div>
+                  <input type="radio" name="activity" value="running"> Running
+                </div>
+                <div>
+                  <input type="radio" name="activity" value="swimming"> Swimming
+                </div>
+                <div>
+                  <input type="radio" name="activity" value="hiking"> Hiking
+                </div>
+              </div>
+              <div class="music">
+                <label for="music">What is your favorite music?</label>
+                <div>
+                  <input type="radio" name="music" value="rock"> Rock and Roll
+                </div>
+                <div>
+                  <input type="radio" name="music" value="hiphop"> Hip Hop
+                </div>
+                <div>
+                  <input type="radio" name="music" value="pop"> Pop
+                </div>
+              </div>
+              <div class="color">
+                <label for="color">What is your favorite color?</label>
+                <div>
+                  <input type="radio" name="color" value="red"> Red
+                </div>
+                <div>
+                  <input type="radio" name="color" value="blue"> Blue
+                </div>
+                <div>
+                  <input type="radio" name="color" value="green"> Green
+                </div>
+              </div>
+              <div class="personality">
+                <label for="personality">What is your personality?</label>
+                <div>
+                  <input type="radio" name="personality" value="friendly"> Friendly
+                </div>
+                <div>
+                  <input type="radio" name="personality" value="shy"> Shy
+                </div>
+                <div>
+                  <input type="radio" name="personality" value="hyper"> Hyperactive
+                </div>
+              </div>
+            </div>
+            <button type="button" class="btn btn-primary" onclick="dogType()">Submit</button>
+          </form>
+          <div id="result"></div>
+        </div>
+      </div>
+    </div>    
+  </body>
+</html>
