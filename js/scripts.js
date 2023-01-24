@@ -1,4 +1,10 @@
+form.onload = function() {
+  const form = document.querySelector("form");
+  form.onsubmit = function(event) {
 event.preventDefault();
+  };
+};
+
 function dogType() {
   let food = document.querySelector("input[name='food']:checked").value;
   let activity = document.querySelector("input[name='activity']:checked").value;
