@@ -3,7 +3,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #333;
-  background: #f4f4f4;
+  background: #2e6464;
   text-align: center;
 }
 
@@ -14,7 +14,7 @@ h1 {
   margin-bottom: 10px;
   padding: 10px;
   border: solid 2px #000;
-  box-shadow: 10px 10px 5px #888888;
+  box-shadow: 10px 10px 5px #1b1b1b;
   box-sizing: border-box;
   background-color: #fff;
   color: #000;
@@ -27,7 +27,7 @@ p {
   margin-bottom: 10px;
   padding: 10px;
   border: solid 2px #000;
-  box-shadow: 10px 10px 5px #888888;
+  box-shadow: 10px 10px 5px #1b1b1b;
   box-sizing: border-box;
   background-color: #fff;
   color: #000;
@@ -59,7 +59,7 @@ p {
   margin-bottom: 10px;
   padding: 10px;
   border: solid 2px #000;
-  box-shadow: 10px 10px 5px #888888;
+  box-shadow: 10px 10px 5px #1b1b1b;
   box-sizing: border-box;
   background-color: #fff;
   color: #000;
@@ -72,7 +72,7 @@ p {
   margin-bottom: 10px;
   padding: 10px;
   border: solid 2px #000;
-  box-shadow: 10px 10px 5px #888888;
+  box-shadow: 10px 10px 5px #1b1b1b;
   box-sizing: border-box;
   background-color: #fff;
   color: #000;
@@ -85,7 +85,7 @@ p {
   margin-bottom: 10px;
   padding: 10px;
   border: solid 2px #000;
-  box-shadow: 10px 10px 5px #888888;
+  box-shadow: 10px 10px 5px #1b1b1b;
   box-sizing: border-box;
   background-color: #fff;
   color: #000;
@@ -98,7 +98,7 @@ p {
   margin-bottom: 10px;
   padding: 10px;
   border: solid 2px #000;
-  box-shadow: 10px 10px 5px #888888;
+  box-shadow: 10px 10px 5px #1b1b1b;
   box-sizing: border-box;
   background-color: #fff;
   color: #000;
@@ -111,7 +111,7 @@ p {
   margin-bottom: 10px;
   padding: 10px;
   border: solid 2px #000;
-  box-shadow: 10px 10px 5px #888888;
+  box-shadow: 10px 10px 5px #1b1b1b;
   box-sizing: border-box;
   background-color: #fff;
   color: #000;
@@ -124,16 +124,17 @@ p {
   margin-bottom: 10px;
   padding: 10px;
   border: solid 2px #000;
-  box-shadow: 10px 10px 5px #888888;
+  box-shadow: 10px 10px 5px #1b1b1b;
   box-sizing: border-box;
   background-color: #fff;
   color: #000;
 }
 
 button {
-  background-color: #289c19; /* Green */
+  background-color: #dcdddb; /* Green */
   border: none;
-  color: white;
+  color: rgb(15, 15, 15);
+  box-shadow: 10px 10px 5px #1b1b1b;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
