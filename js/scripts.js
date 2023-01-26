@@ -20,7 +20,7 @@ function dogType() {
   } else if (food === "fruit" && activity === "hiking" && music === "pop" && color === "green" && personality === "hyper") {
       dogType = "St. Bernard";
   } else {
-      dogType = "Other";
+      dogType = "Siberian Husky";
   }
 
   document.getElementById("result").innerHTML = "You are a " + dogType + "!";
